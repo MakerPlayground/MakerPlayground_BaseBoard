@@ -1,4 +1,4 @@
-17986646706446519
+17992306427508818
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -6404,13 +6404,6 @@ XT60 female vertical
 0
 2
 2
-Connector_Amphenol
-Amphenol_M8S-03PMMR-SF8001
-M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
-three-pin M8
-0
-5
-4
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -47361,13 +47354,6 @@ SSSS811101
 0
 7
 3
-GiraffeTech-Arduino
-Arduino_Nano_Socket_Gtech-Custom
-https://store.arduino.cc/arduino-nano
-
-0
-30
-30
 GiraffeTech-Atmel
 8S2
 Module Narrow CMS SOJ 8 pins large
@@ -47606,6 +47592,13 @@ DF40HC(X.X)-40DS-0.4V
 0
 40
 40
+GiraffeTech-Connector
+DINKLE_EK500V-2P
+
+
+0
+2
+2
 GiraffeTech-Connector
 FH12-24S-0.5SH(55)
 
@@ -48530,13 +48523,6 @@ Wi-Fi Module
 0
 16
 16
-GiraffeTech-NodeMCU
-ESP32-WROOM-32_ButtLess
-Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
-Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
-0
-29
-29
 GiraffeTech-NodeMCU
 NodeMCU
 
