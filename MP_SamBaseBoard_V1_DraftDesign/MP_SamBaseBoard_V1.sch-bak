@@ -668,5 +668,4 @@ Text GLabel 7500 5150 0    50   Input ~ 0
 SWCLK
 Text GLabel 7500 5250 0    50   Input ~ 0
 SWDIO
-NoConn ~ 7500 3950
 $EndSCHEMATC
