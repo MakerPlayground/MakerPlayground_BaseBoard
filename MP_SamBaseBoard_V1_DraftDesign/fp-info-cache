@@ -1,4 +1,4 @@
-17991410324489519
+17996175401165519
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -48230,7 +48230,21 @@ BOURNS_SRN8040
 2
 2
 GiraffeTech-Inductor
+L_0806_2016Metric
+
+
+0
+2
+2
+GiraffeTech-Inductor
 L_1008(2520)
+
+
+0
+2
+2
+GiraffeTech-Inductor
+L_1616_2020Metric
 
 
 0
@@ -48852,6 +48866,13 @@ Texas_VSON7
 0
 7
 7
+GiraffeTech-Texas
+VQFN-HR-11
+
+
+0
+11
+11
 GiraffeTech-Toshiba
 SOT-23F
 
