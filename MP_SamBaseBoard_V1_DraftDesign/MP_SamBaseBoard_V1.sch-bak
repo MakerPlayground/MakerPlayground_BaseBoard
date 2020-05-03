@@ -682,7 +682,7 @@ U 1 1 5EAA1E21
 P 14600 1900
 F 0 "U3" H 14575 1633 50  0000 C CNN
 F 1 "74LVC1G125" H 14575 1724 50  0000 C CNN
-F 2 "" H 14600 1900 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 14600 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 14600 1900 50  0001 C CNN
 	1    14600 1900
 	-1   0    0    1   
@@ -1512,4 +1512,145 @@ F 3 "" H 12700 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12700 5300 12700 5400
+$Comp
+L Connector_Generic:Conn_01x28 J?
+U 1 1 5EB09696
+P 7850 8050
+F 0 "J?" H 7768 6425 50  0000 C CNN
+F 1 "Adafruit_Feather_Conn" H 7768 6516 50  0000 C CNN
+F 2 "GiraffeTech-Connector:Adafruit-Feather_WoMountPoint" H 7850 8050 50  0001 C CNN
+F 3 "~" H 7850 8050 50  0001 C CNN
+	1    7850 8050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 6650 8050 6650
+Wire Wire Line
+	8150 6750 8050 6750
+Wire Wire Line
+	8150 6850 8050 6850
+Wire Wire Line
+	8150 6950 8050 6950
+Wire Wire Line
+	8150 7050 8050 7050
+Wire Wire Line
+	8150 7150 8050 7150
+Wire Wire Line
+	8150 7250 8050 7250
+Wire Wire Line
+	8150 7350 8050 7350
+Wire Wire Line
+	8150 7450 8050 7450
+Wire Wire Line
+	8150 7550 8050 7550
+Wire Wire Line
+	8150 7650 8050 7650
+Wire Wire Line
+	8150 7750 8050 7750
+Wire Wire Line
+	8150 7850 8050 7850
+Wire Wire Line
+	8150 7950 8050 7950
+Wire Wire Line
+	8150 8050 8050 8050
+Wire Wire Line
+	8150 8150 8050 8150
+Wire Wire Line
+	8150 8250 8050 8250
+Wire Wire Line
+	8150 8350 8050 8350
+Wire Wire Line
+	8150 8450 8050 8450
+Wire Wire Line
+	8150 8550 8050 8550
+Wire Wire Line
+	8150 8650 8050 8650
+Wire Wire Line
+	8150 8750 8050 8750
+Wire Wire Line
+	8150 8850 8050 8850
+Wire Wire Line
+	8150 8950 8050 8950
+Wire Wire Line
+	8150 9050 8050 9050
+Wire Wire Line
+	8150 9150 8050 9150
+Wire Wire Line
+	8350 9250 8050 9250
+Wire Wire Line
+	8150 9350 8050 9350
+Text GLabel 8150 6650 2    50   Input ~ 0
+BAT
+Text GLabel 8150 6750 2    50   Input ~ 0
+EN
+Text GLabel 8150 6850 2    50   Input ~ 0
+USB
+Text GLabel 8150 8050 2    50   Input ~ 0
+D0_RxD0
+Text GLabel 8150 7950 2    50   Input ~ 0
+D1_TxD0
+Text GLabel 8150 7350 2    50   Input ~ 0
+Adf_D9
+Text GLabel 8150 7250 2    50   Input ~ 0
+Adf_D10
+Text GLabel 8150 7150 2    50   Input ~ 0
+Adf_D11
+Text GLabel 8150 7050 2    50   Input ~ 0
+Adf_D12
+Text GLabel 8150 6950 2    50   Input ~ 0
+Adf_D13
+Text GLabel 8150 7550 2    50   Input ~ 0
+Adf_D5
+Text GLabel 8150 7450 2    50   Input ~ 0
+Adf_D6
+Text GLabel 8150 7750 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 8150 7650 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 8150 7850 2    50   Input ~ 0
+Adf_D4
+Text GLabel 8150 8150 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 8150 8250 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 8150 8350 2    50   Input ~ 0
+SPI_SCK
+Text GLabel 8150 8550 2    50   Input ~ 0
+Adf_A4
+Text GLabel 8150 8450 2    50   Input ~ 0
+Adf_A5
+Text GLabel 8150 8950 2    50   Input ~ 0
+Adf_A0_DAC0
+Text GLabel 8150 8850 2    50   Input ~ 0
+Adf_A1_DAC1
+Text GLabel 8150 8750 2    50   Input ~ 0
+Adf_A2
+Text GLabel 8150 8650 2    50   Input ~ 0
+Adf_A3
+$Comp
+L power:GND #PWR?
+U 1 1 5EDE7447
+P 8150 9050
+F 0 "#PWR?" H 8150 8800 50  0001 C CNN
+F 1 "GND" V 8155 8922 50  0000 R CNN
+F 2 "" H 8150 9050 50  0001 C CNN
+F 3 "" H 8150 9050 50  0001 C CNN
+	1    8150 9050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8150 9150 2    50   Input ~ 0
+AREF
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EDEC800
+P 8350 9250
+F 0 "#PWR?" H 8350 9100 50  0001 C CNN
+F 1 "+3V3" H 8365 9423 50  0000 C CNN
+F 2 "" H 8350 9250 50  0001 C CNN
+F 3 "" H 8350 9250 50  0001 C CNN
+	1    8350 9250
+	0    1    1    0   
+$EndComp
+Text GLabel 8150 9350 2    50   Input ~ 0
+~RESET
 $EndSCHEMATC

@@ -1512,4 +1512,145 @@ F 3 "" H 12700 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12700 5300 12700 5400
+$Comp
+L Connector_Generic:Conn_01x28 J?
+U 1 1 5EB09696
+P 4800 2800
+F 0 "J?" H 4718 1175 50  0000 C CNN
+F 1 "Adafruit_Feather_Conn" H 4718 1266 50  0000 C CNN
+F 2 "GiraffeTech-Connector:Adafruit-Feather_WoMountPoint" H 4800 2800 50  0001 C CNN
+F 3 "~" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 1400 5000 1400
+Wire Wire Line
+	5100 1500 5000 1500
+Wire Wire Line
+	5100 1600 5000 1600
+Wire Wire Line
+	5100 1700 5000 1700
+Wire Wire Line
+	5100 1800 5000 1800
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5100 2000 5000 2000
+Wire Wire Line
+	5100 2100 5000 2100
+Wire Wire Line
+	5100 2200 5000 2200
+Wire Wire Line
+	5100 2300 5000 2300
+Wire Wire Line
+	5100 2400 5000 2400
+Wire Wire Line
+	5100 2500 5000 2500
+Wire Wire Line
+	5100 2600 5000 2600
+Wire Wire Line
+	5100 2700 5000 2700
+Wire Wire Line
+	5100 2800 5000 2800
+Wire Wire Line
+	5100 2900 5000 2900
+Wire Wire Line
+	5100 3000 5000 3000
+Wire Wire Line
+	5100 3100 5000 3100
+Wire Wire Line
+	5100 3200 5000 3200
+Wire Wire Line
+	5100 3300 5000 3300
+Wire Wire Line
+	5100 3400 5000 3400
+Wire Wire Line
+	5100 3500 5000 3500
+Wire Wire Line
+	5100 3600 5000 3600
+Wire Wire Line
+	5100 3700 5000 3700
+Wire Wire Line
+	5100 3800 5000 3800
+Wire Wire Line
+	5100 3900 5000 3900
+Wire Wire Line
+	5300 4000 5000 4000
+Wire Wire Line
+	5100 4100 5000 4100
+Text GLabel 5100 1400 2    50   Input ~ 0
+BAT
+Text GLabel 5100 1500 2    50   Input ~ 0
+EN
+Text GLabel 5100 1600 2    50   Input ~ 0
+USB
+Text GLabel 5100 2800 2    50   Input ~ 0
+D0_RxD0
+Text GLabel 5100 2700 2    50   Input ~ 0
+D1_TxD0
+Text GLabel 5100 2100 2    50   Input ~ 0
+Adf_D9
+Text GLabel 5100 2000 2    50   Input ~ 0
+Adf_D10
+Text GLabel 5100 1900 2    50   Input ~ 0
+Adf_D11
+Text GLabel 5100 1800 2    50   Input ~ 0
+Adf_D12
+Text GLabel 5100 1700 2    50   Input ~ 0
+Adf_D13
+Text GLabel 5100 2300 2    50   Input ~ 0
+Adf_D5
+Text GLabel 5100 2200 2    50   Input ~ 0
+Adf_D6
+Text GLabel 5100 2500 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 5100 2400 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 5100 2600 2    50   Input ~ 0
+Adf_D4
+Text GLabel 5100 2900 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 5100 3000 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 5100 3100 2    50   Input ~ 0
+SPI_SCK
+Text GLabel 5100 3300 2    50   Input ~ 0
+Adf_A4
+Text GLabel 5100 3200 2    50   Input ~ 0
+Adf_A5
+Text GLabel 5100 3700 2    50   Input ~ 0
+Adf_A0_DAC0
+Text GLabel 5100 3600 2    50   Input ~ 0
+Adf_A1_DAC1
+Text GLabel 5100 3500 2    50   Input ~ 0
+Adf_A2
+Text GLabel 5100 3400 2    50   Input ~ 0
+Adf_A3
+$Comp
+L power:GND #PWR?
+U 1 1 5EDE7447
+P 5100 3800
+F 0 "#PWR?" H 5100 3550 50  0001 C CNN
+F 1 "GND" V 5105 3672 50  0000 R CNN
+F 2 "" H 5100 3800 50  0001 C CNN
+F 3 "" H 5100 3800 50  0001 C CNN
+	1    5100 3800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5100 3900 2    50   Input ~ 0
+AREF
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EDEC800
+P 5300 4000
+F 0 "#PWR?" H 5300 3850 50  0001 C CNN
+F 1 "+3V3" H 5315 4173 50  0000 C CNN
+F 2 "" H 5300 4000 50  0001 C CNN
+F 3 "" H 5300 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+Text GLabel 5100 4100 2    50   Input ~ 0
+~RESET
 $EndSCHEMATC
