@@ -2222,7 +2222,7 @@ U 1 1 5F197AED
 P 3350 5600
 F 0 "J4" H 3300 6317 50  0000 C CNN
 F 1 "uSD_Card" H 3300 6226 50  0000 C CNN
-F 2 "" H 4500 5900 50  0001 C CNN
+F 2 "GiraffeTech-Connector:GTK_TFMS08TK-PP-02" H 4500 5900 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 3350 5600 50  0001 C CNN
 	1    3350 5600
 	1    0    0    -1  
