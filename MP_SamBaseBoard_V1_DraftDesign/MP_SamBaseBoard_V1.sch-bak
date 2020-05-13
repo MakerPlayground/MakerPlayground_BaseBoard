@@ -4379,4 +4379,6 @@ Wire Wire Line
 	5500 5500 5500 5600
 Wire Wire Line
 	5500 5800 5500 5900
+Text Notes 12200 10950 0    59   ~ 0
+Maker Playground SAMD Cortex M4F + ESP32 Base Board
 $EndSCHEMATC

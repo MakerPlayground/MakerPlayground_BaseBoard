@@ -1,4 +1,4 @@
-18005016341196098
+18002535431031799
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -6404,6 +6404,13 @@ XT60 female vertical
 0
 2
 2
+Connector_Amphenol
+Amphenol_M8S-03PMMR-SF8001
+M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
+three-pin M8
+0
+5
+4
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -47354,6 +47361,13 @@ SSSS811101
 0
 7
 3
+GiraffeTech-Arduino
+Arduino_Nano_Socket_Gtech-Custom
+https://store.arduino.cc/arduino-nano
+
+0
+30
+30
 GiraffeTech-Atmel
 8S2
 Module Narrow CMS SOJ 8 pins large
@@ -48090,6 +48104,13 @@ Fabby_V1_1x1
 32
 32
 GiraffeTech-Fabby
+Fabby_V1_1x1_NoEDGE
+
+
+0
+28
+8
+GiraffeTech-Fabby
 Fabby_V1_1x2
 
 
@@ -48376,6 +48397,13 @@ SK9822_5050_RGB_LED
 0
 6
 6
+GiraffeTech-LED
+WS2812B_MINI
+
+
+0
+0
+0
 GiraffeTech-Liteon
 LTC-4727JR
 
