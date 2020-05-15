@@ -708,7 +708,7 @@ Wire Wire Line
 	15300 1900 15300 1750
 Connection ~ 15300 1900
 Wire Wire Line
-	15300 1450 15300 1550
+	15300 1450 15300 1500
 Wire Wire Line
 	14850 2100 14850 2200
 Wire Wire Line
@@ -1472,7 +1472,7 @@ U 1 1 5EB09696
 P 4200 2800
 F 0 "J3" H 4118 1175 50  0000 C CNN
 F 1 "Adafruit_Feather_CONN" H 4118 1266 50  0000 C CNN
-F 2 "GiraffeTech-Connector:Adafruit-Feather_WoMountPoint_TypeA" H 4200 2800 50  0001 C CNN
+F 2 "GiraffeTech-Connector:Adafruit-Feather_WoMountPoint_TypeB" H 4200 2800 50  0001 C CNN
 F 3 "~" H 4200 2800 50  0001 C CNN
 	1    4200 2800
 	-1   0    0    1   
@@ -1545,8 +1545,6 @@ Text GLabel 4500 1900 2    50   Input ~ 0
 Adf_D11
 Text GLabel 4500 1800 2    50   Input ~ 0
 Adf_D12
-Text GLabel 4500 1700 2    50   Input ~ 0
-Adf_D13
 Text GLabel 4500 2300 2    50   Input ~ 0
 Adf_D5
 Text GLabel 4500 2200 2    50   Input ~ 0
@@ -2312,7 +2310,7 @@ F 3 "" H 7650 8050 50  0001 C CNN
 	1    7650 8050
 	1    0    0    -1  
 $EndComp
-Text Notes 2950 4700 0    100  ~ 0
+Text Notes 3400 6750 0    100  ~ 0
 SENSORS & DRIVER
 $Comp
 L power:GND #PWR0163
@@ -4697,21 +4695,21 @@ NoConn ~ 4500 1400
 NoConn ~ 4500 1500
 NoConn ~ 4500 1600
 $Comp
-L Memory_Flash:SST25VF080B-50-4x-S2Ax U?
+L Memory_Flash:SST25VF080B-50-4x-S2Ax U13
 U 1 1 5F89670D
 P 4650 5550
-F 0 "U?" H 4400 5900 50  0000 L CNN
-F 1 "SST25VF080B-50-4x-S2Ax" H 5000 5300 50  0000 L CNN
+F 0 "U13" H 4400 5900 50  0000 L CNN
+F 1 "SST25VF016B-50-4C-S2AF" H 5000 5300 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" H 4650 4850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf" H 4600 6100 50  0001 C CNN
 	1    4650 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0243
 U 1 1 5FA539E1
 P 4650 6050
-F 0 "#PWR?" H 4650 5800 50  0001 C CNN
+F 0 "#PWR0243" H 4650 5800 50  0001 C CNN
 F 1 "GND" H 4655 5877 50  0000 C CNN
 F 2 "" H 4650 6050 50  0001 C CNN
 F 3 "" H 4650 6050 50  0001 C CNN
@@ -4720,17 +4718,62 @@ F 3 "" H 4650 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 5950 4650 6050
+Wire Wire Line
+	4650 5050 4650 5150
 $Comp
-L InGarage_Power:+3V3_FTDI #PWR?
-U 1 1 5FAC282B
+L power:+3V3 #PWR0244
+U 1 1 5EC5AB49
 P 4650 5050
-F 0 "#PWR?" H 4650 4900 50  0001 C CNN
-F 1 "+3V3_FTDI" H 4665 5223 50  0000 C CNN
+F 0 "#PWR0244" H 4650 4900 50  0001 C CNN
+F 1 "+3V3" H 4665 5223 50  0000 C CNN
 F 2 "" H 4650 5050 50  0001 C CNN
 F 3 "" H 4650 5050 50  0001 C CNN
 	1    4650 5050
 	1    0    0    -1  
 $EndComp
+Text GLabel 4150 5350 0    50   Input ~ 0
+QSPI_IO0
+Text GLabel 5150 5350 2    50   Input ~ 0
+QSPI_IO1
+Text GLabel 4150 5650 0    50   Input ~ 0
+QSPI_IO2
+Text GLabel 4150 5750 0    50   Input ~ 0
+QSPI_IO3
 Wire Wire Line
-	4650 5050 4650 5150
+	4250 5350 4150 5350
+Wire Wire Line
+	4250 5450 4150 5450
+Wire Wire Line
+	4250 5550 4150 5550
+Wire Wire Line
+	4250 5650 4150 5650
+Wire Wire Line
+	4250 5750 4150 5750
+Wire Wire Line
+	5050 5350 5150 5350
+Text GLabel 4150 5450 0    50   Input ~ 0
+QSPI_SCK
+Text GLabel 4150 5550 0    50   Input ~ 0
+QSPI_CS
+Text Notes 3250 4750 0    100  ~ 0
+MEMORY
+$Comp
+L power:VCC #PWR0245
+U 1 1 5F256590
+P 15100 1450
+F 0 "#PWR0245" H 15100 1300 50  0001 C CNN
+F 1 "VCC" H 15115 1623 50  0000 C CNN
+F 2 "" H 15100 1450 50  0001 C CNN
+F 3 "" H 15100 1450 50  0001 C CNN
+	1    15100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 1450 15100 1500
+Wire Wire Line
+	15100 1500 15300 1500
+Connection ~ 15300 1500
+Wire Wire Line
+	15300 1500 15300 1550
+NoConn ~ 4500 1700
 $EndSCHEMATC
