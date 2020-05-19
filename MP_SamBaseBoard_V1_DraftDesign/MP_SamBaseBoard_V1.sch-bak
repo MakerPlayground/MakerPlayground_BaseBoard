@@ -2518,17 +2518,6 @@ Wire Wire Line
 	14950 5800 15050 5800
 NoConn ~ 15050 5800
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5F0DE9E4
-P 3400 7250
-F 0 "J1" H 3480 7242 50  0000 L CNN
-F 1 "MOTOR-A_CONN" H 3480 7151 50  0000 L CNN
-F 2 "GiraffeTech-Connector:DINKLE_EK500V-2P" H 3400 7250 50  0001 C CNN
-F 3 "~" H 3400 7250 50  0001 C CNN
-	1    3400 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5F0DEFB5
 P 3400 8650
@@ -2586,8 +2575,6 @@ VIN
 Wire Wire Line
 	2350 7200 2350 7100
 NoConn ~ 2650 7800
-Wire Wire Line
-	2700 7250 3200 7250
 $Comp
 L Device:C_Small C24
 U 1 1 5F3A6950
@@ -4776,4 +4763,17 @@ Connection ~ 15300 1500
 Wire Wire Line
 	15300 1500 15300 1550
 NoConn ~ 4500 1700
+Wire Wire Line
+	2700 7250 3200 7250
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F0DE9E4
+P 3400 7350
+F 0 "J1" H 3480 7342 50  0000 L CNN
+F 1 "MOTOR-A_CONN" H 3480 7251 50  0000 L CNN
+F 2 "GiraffeTech-Connector:DINKLE_EK500V-2P" H 3400 7350 50  0001 C CNN
+F 3 "~" H 3400 7350 50  0001 C CNN
+	1    3400 7350
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
