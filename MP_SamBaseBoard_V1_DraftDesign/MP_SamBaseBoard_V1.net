@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/inine/Documents/MakerPlayground_BaseBoard/MP_SamBaseBoard_V1_DraftDesign/MP_SamBaseBoard_V1.sch)
-    (date "Tue 19 May 2020 08:39:53 PM +07")
+    (date "Thu 21 May 2020 08:43:11 AM +07")
     (tool "Eeschema 5.1.5-1.fc31")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1261,7 +1261,8 @@
         (pin (num 13) (name ~) (type NotConnected))
         (pin (num 14) (name LRCLK) (type BiDi))
         (pin (num 15) (name GND) (type passive))
-        (pin (num 16) (name PAD) (type power_in))))
+        (pin (num 16) (name BCLK) (type BiDi))
+        (pin (num 17) (name PAD) (type power_in))))
     (libpart (lib InGarage_FETs) (part IRFHM9331PbF)
       (fields
         (field (name Reference) U)
@@ -1768,7 +1769,7 @@
       (node (ref U13) (pin 4))
       (node (ref U6) (pin 11))
       (node (ref U6) (pin 15))
-      (node (ref U6) (pin 16))
+      (node (ref U6) (pin 17))
       (node (ref U6) (pin 2))
       (node (ref U6) (pin 3))
       (node (ref J4) (pin 6))
