@@ -4805,4 +4805,6 @@ Wire Wire Line
 	9000 8350 9000 8450
 Wire Wire Line
 	9400 8350 9500 8350
+Text GLabel 4350 4400 2    50   Input ~ 0
+ESP_ACK
 $EndSCHEMATC
