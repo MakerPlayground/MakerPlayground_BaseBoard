@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MP_SamBaseBoard_V1-rescue)(type Legacy)(uri ${KIPRJMOD}/MP_SamBaseBoard_V1-rescue.lib)(options "")(descr ""))
-)
