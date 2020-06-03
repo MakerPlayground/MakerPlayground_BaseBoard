@@ -406,7 +406,7 @@ Text GLabel 3200 3300 2    50   Input ~ 0
 RED_LED
 Text GLabel 3200 3400 2    50   Input ~ 0
 BLUE_LED
-Text GLabel 900  950  1    50   Input ~ 0
+Text GLabel 900  1350 3    50   Input ~ 0
 ESP_CS
 $Comp
 L Device:R_Small R1
@@ -419,21 +419,6 @@ F 3 "~" H 900 1150 50  0001 C CNN
 	1    900  1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5EBCB51C
-P 900 1350
-F 0 "#PWR0108" H 900 1100 50  0001 C CNN
-F 1 "GND" H 905 1177 50  0000 C CNN
-F 2 "" H 900 1350 50  0001 C CNN
-F 3 "" H 900 1350 50  0001 C CNN
-	1    900  1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1250 900  1350
-Wire Wire Line
-	900  950  900  1050
 $Comp
 L power:GND #PWR0109
 U 1 1 5EBDE57E
@@ -4964,4 +4949,19 @@ Wire Wire Line
 Connection ~ 2300 10550
 Wire Wire Line
 	2300 10550 2350 10550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EDF378B
+P 900 950
+F 0 "#PWR?" H 900 800 50  0001 C CNN
+F 1 "+3V3" H 915 1123 50  0000 C CNN
+F 2 "" H 900 950 50  0001 C CNN
+F 3 "" H 900 950 50  0001 C CNN
+	1    900  950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  950  900  1050
+Wire Wire Line
+	900  1250 900  1350
 $EndSCHEMATC

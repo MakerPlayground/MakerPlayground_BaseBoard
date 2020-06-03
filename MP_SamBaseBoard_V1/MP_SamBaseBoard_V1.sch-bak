@@ -3170,6 +3170,8 @@ F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 15150 6360 50  0001 C CNN
 F 3 "~" H 15150 6360 50  0001 C CNN
 F 4 "DS-012-B-PBT-ROHS" H 15100 6400 50  0001 C CNN "Mfg. Part"
 F 5 "0171-0140-3" H 15100 6400 50  0001 C CNN "ES No."
+F 6 "PJ-002A" H 15100 6400 50  0001 C CNN "Mfg. Part"
+F 7 "490-PJ-002A" H 15100 6400 50  0001 C CNN "Mouser No."
 	1    15100 6400
 	1    0    0    -1  
 $EndComp
