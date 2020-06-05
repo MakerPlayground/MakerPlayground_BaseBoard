@@ -1,4 +1,4 @@
-19103131438450799
+19104723160034799
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -51924,7 +51924,7 @@ MicroBit_EDGE_Connector
 
 0
 55
-20
+21
 GiraffeTech-Connector
 Molex_RJ45_43860-0001
 
@@ -52307,6 +52307,13 @@ GiraffeTech-Electromechanical
 SW_Push_SPST_NO_Alps_SKRP
 https://tech.alpsalpine.com/prod/e/pdf/tact/surfacemount/skrp/skrp.pdf
 SMD SMT button
+0
+4
+2
+GiraffeTech-Electromechanical
+SW_Push_TS-1145A-B-A
+https://katalog.we-online.com/em/datasheet/434133025816.pdf
+tactile switch Wurth Wuerth
 0
 4
 2

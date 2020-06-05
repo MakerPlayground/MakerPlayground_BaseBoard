@@ -1,6 +1,6 @@
-update=Thu 04 Jun 2020 05:49:41 PM +07
+update=Fri 05 Jun 2020 09:55:12 PM +07
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=MP_SamBaseBoard_V1.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -36,6 +46,13 @@ TrackWidth5=0.6
 TrackWidth6=0.7
 TrackWidth7=0.8
 TrackWidth8=1
+TrackWidth9=0.3
+TrackWidth10=0.4
+TrackWidth11=0.5
+TrackWidth12=0.6
+TrackWidth13=0.7
+TrackWidth14=0.8
+TrackWidth15=1
 ViaDiameter1=0.6
 ViaDrill1=0.3
 dPairWidth1=0.2
@@ -64,7 +81,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
