@@ -4142,10 +4142,6 @@ Wire Wire Line
 Connection ~ 4200 10100
 Wire Wire Line
 	3750 9850 4500 9850
-Wire Wire Line
-	3750 9750 3750 9850
-Wire Wire Line
-	3750 9750 4500 9750
 Connection ~ 3750 9850
 NoConn ~ 5500 10200
 $Comp
@@ -4180,13 +4176,6 @@ F 3 "" H 3750 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 9650 3750 9750
-Connection ~ 3750 9750
-Wire Wire Line
-	4200 10000 4500 10000
-Wire Wire Line
-	4200 10100 4200 10000
-Wire Wire Line
 	3750 9850 3750 10200
 $Comp
 L power:+3V3 #PWR0194
@@ -4199,9 +4188,6 @@ F 3 "" H 4200 9650 50  0001 C CNN
 	1    4200 9650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 9650 4200 10000
-Connection ~ 4200 10000
 Text Notes 9000 9350 0    50   ~ 0
 LIGHT SENSOR
 $Comp
@@ -4863,4 +4849,14 @@ Wire Wire Line
 Wire Wire Line
 	12150 1800 12150 1850
 Connection ~ 12150 1800
+Wire Wire Line
+	3750 9650 3750 9850
+Wire Wire Line
+	4200 9650 4200 10100
+Wire Wire Line
+	4400 9750 4500 9750
+Wire Wire Line
+	4400 10000 4500 10000
+NoConn ~ 4400 9750
+NoConn ~ 4400 10000
 $EndSCHEMATC
