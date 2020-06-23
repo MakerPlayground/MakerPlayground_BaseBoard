@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MP_SamBaseBoard_V1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -4997,6 +4996,8 @@ Text GLabel 9750 9400 0    50   Input ~ 0
 VCOMH
 Text GLabel 9700 8950 0    50   Input ~ 0
 VCC_OEL
+Text GLabel 9500 10250 1    50   Input ~ 0
+VCC_OEL
 $Comp
 L Device:C_Small C44
 U 1 1 600FAD18
@@ -5107,6 +5108,8 @@ Wire Wire Line
 Wire Wire Line
 	10200 10750 10300 10750
 Connection ~ 10300 10750
+Text GLabel 10300 10250 1    50   Input ~ 0
+VDD_LOGIC
 Text GLabel 10850 10350 1    50   Input ~ 0
 VCOMH
 $Comp
@@ -5174,26 +5177,4 @@ Wire Wire Line
 Connection ~ 9750 9100
 Wire Wire Line
 	9750 9150 9850 9150
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F0262F3
-P 9500 10250
-F 0 "#PWR?" H 9500 10100 50  0001 C CNN
-F 1 "+3V3" V 9515 10378 50  0000 L CNN
-F 2 "" H 9500 10250 50  0001 C CNN
-F 3 "" H 9500 10250 50  0001 C CNN
-	1    9500 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F02665C
-P 10300 10250
-F 0 "#PWR?" H 10300 10100 50  0001 C CNN
-F 1 "+3V3" V 10315 10378 50  0000 L CNN
-F 2 "" H 10300 10250 50  0001 C CNN
-F 3 "" H 10300 10250 50  0001 C CNN
-	1    10300 10250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
